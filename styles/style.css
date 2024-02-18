@@ -1,0 +1,79 @@
+@charset "UTF-8";
+.main {
+  background: rgb(57, 132, 244);
+  background: linear-gradient(169deg, rgba(57, 132, 244, 0.06) 17%, rgba(12, 211, 255, 0.04) 34%, rgba(47, 124, 240, 0.04) 51%, rgba(14, 101, 232, 0.04) 87%);
+  padding: 0 40px;
+}
+.main .bitcoin {
+  position: relative;
+}
+.main .bitcoin1 {
+  width: 600px;
+  height: auto;
+}
+.main .circle {
+  position: relative;
+  width: 50px;
+  height: 25px;
+  top: -550px;
+  left: 15px;
+}
+.main .fastest {
+  background: linear-gradient(169.4deg, #3984F4 -6.01%, #0CD3FF 36.87%, #2F7CF0 78.04%, #0E65E8 103.77%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.tablo {
+  border: 0.5px white solid;
+  border-radius: 15px;
+  padding: 25px;
+  margin-top: -30px;
+  background-color: white;
+}
+.tablo .table {
+  width: 100%;
+}
+
+.kripto .input {
+  width: 150px;
+  display: inline;
+}
+.kripto .buy {
+  width: 450px;
+}
+
+.kredi .kredit {
+  height: 350px;
+}
+
+.tools .learn {
+  height: 450px;
+}
+
+.endüstri .kasa {
+  height: 400px;
+}
+
+.singup .cizik1 {
+  position: relative;
+  top: 120px;
+  right: 210px;
+}
+.singup .cizik2 {
+  position: relative;
+  top: 95px;
+  right: -220px;
+}
+@media screen and (max-width: 576px) {
+  .singup .cizik1 {
+    display: none;
+  }
+  .singup .cizik2 {
+    display: none;
+  }
+}
+
+.sorular .no-underline {
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
